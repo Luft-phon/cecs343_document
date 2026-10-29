@@ -1,0 +1,201 @@
+1. In software engineering, “complex” means:
+
+A. Hard to understand
+B. Poorly documented
+C. Composed of many simple parts related to one another
+D. Impossible to solve
+Answer: C
+
+2. The “Frog in Boiling Water” analogy illustrates:
+
+A. Rapid catastrophic failure
+B. Gradual accumulation of small problems leading to major issues
+C. Immediate system crashes
+D. Agile development benefits
+Answer: B
+
+3. Accumulation of design smells and technical debt eventually leads to:
+
+A. Refactoring
+B. Software rot
+C. Perfect architecture
+D. Improved maintainability
+Answer: B
+
+4. According to the First Law of Software Engineering:
+
+A. Code should be optimized first
+B. Software engineers must learn the problem domain
+C. Customers must understand programming
+D. Design is optional
+Answer: B
+
+5. The software engineer acts primarily as:
+
+A. A coder
+B. A tester
+C. A bridge between customer needs and programming implementation
+D. A hardware technician
+Answer: C
+
+6. In the ATM example, the bank customer is considered:
+
+A. A concept
+B. A subsystem
+C. An actor
+D. A class
+Answer: C
+
+7. In system modeling, actors are:
+
+A. Internal system components
+B. External agents interacting with the system
+C. Database tables
+D. Hardware devices only
+Answer: B
+
+8. Concepts (or objects) in domain modeling are:
+
+A. Always visible users
+B. External systems
+C. Internal agents that make the system function
+D. Programming languages
+Answer: C
+
+9. Divide-and-conquer helps primarily by:
+
+A. Increasing complexity
+B. Eliminating requirements
+C. Creating a model of the problem domain
+D. Avoiding documentation
+Answer: C
+
+10. A use case represents:
+
+A. A database schema
+B. A scenario of how the system is used
+C. A UML class diagram
+D. A testing strategy
+Answer: B
+
+11. The Second Law of Software Engineering states that software should be written:
+
+A. For computers first
+B. For managers
+C. For people first
+D. For performance only
+Answer: C
+
+12. The Waterfall method is characterized by:
+
+A. Continuous feedback loops
+B. Random phase switching
+C. Unidirectional phases with no way back
+D. Daily releases
+Answer: C
+
+13. In Iterative + Incremental development:
+
+A. The entire system is built at once
+B. Functionality is developed in increments with feedback
+C. No feedback is allowed
+D. Testing happens only at the end
+Answer: B
+
+14. Agile differs from Waterfall because Agile:
+
+A. Avoids documentation
+B. Eliminates requirements
+C. Relies heavily on continuous user feedback
+D. Has no estimation
+Answer: C
+
+15. UML stands for:
+
+A. Unified Modeling Logic
+B. Universal Modeling Language
+C. Unified Modeling Language
+D. User Management Language
+Answer: C
+
+16. A UML class typically contains:
+
+A. Only attributes
+B. Only operations
+C. Name, attributes, and operations
+D. Requirements only
+Answer: C
+
+17. Informal hand-drawn diagrams are recommended:
+
+A. At final project submission
+B. During early design stages
+C. For legal documentation
+D. After deployment
+Answer: B
+
+18. Standardized UML diagrams should be created:
+
+A. Before understanding the problem
+B. When consensus on design is reached
+C. Only by managers
+D. At random times
+Answer: B
+
+19. In work estimation strategy, after making an initial guess, the next step is to:
+
+A. Finalize the project duration
+B. Do a little work to measure speed
+C. Deploy immediately
+D. Double the estimate
+Answer: B
+
+20. In sizing the problem, total size is calculated by:
+
+A. Estimating one large task
+B. Multiplying velocity by time
+C. Summing relative sizes of all parts
+D. Counting developers
+Answer: C
+
+21. Velocity refers to:
+
+A. Code complexity
+B. Speed of work completion
+C. Number of developers
+D. Testing coverage
+Answer: B
+
+22. According to the law of diminishing returns in estimation:
+
+A. Accuracy improves infinitely at low cost
+B. Improving estimation accuracy beyond a point requires huge effort
+C. Estimation is always precise
+D. Accuracy decreases over time
+
+Answer: B
+
+23. In the Waterfall method, estimation error:
+
+A. Starts low and increases
+B. Remains constant
+C. Starts high and gradually converges toward zero
+D. Is eliminated immediately
+Answer: C
+
+24. In Agile, estimation accuracy improves:
+
+A. Only at the end
+B. In leaps after completing iterations   (leap: bước nhảy lớn)
+C. Without feedback
+D. Randomly
+Answer: B
+
+25. Judging feasibility and quality of a design requires:
+
+A. Only programming skill
+B. No experience
+C. Domain knowledge and commonsense
+D. Automated tools only
+
+Answer: C

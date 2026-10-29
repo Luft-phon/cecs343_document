@@ -1,0 +1,285 @@
+PHẦN 1 – Framework Activities & Process Framework
+1️⃣ Nhận diện Framework Activities
+
+Câu hỏi có thể ra:
+
+Which of the following is a framework activity in the generic process model?
+
+A. Risk management
+B. Communication
+C. Configuration management
+D. Technical review
+
+=> B
+
+The generic process framework includes:
+
+A. Planning, Risk, Testing
+B. Communication, Planning, Modeling, Construction, Deployment
+C. Requirements, Coding, Maintenance
+D. Specification, Evolution only
+
+👉 Vì slide ghi rõ 5 framework activities:
+Communication – Planning – Modeling – Construction – Deployment 
+
+Framework Activities
+
+2️⃣ Umbrella Activities
+
+Rất dễ ra câu hỏi phân biệt framework vs umbrella.
+
+Which of the following is an umbrella activity?
+
+A. Modeling
+
+B. Construction
+
+C. Risk management
+
+D. Deployment
+
+Software configuration management is:
+
+A. A framework activity
+
+B. A phase in Waterfall
+
+C. An umbrella activity
+
+D. A task set
+
+👉 Umbrella gồm: Risk management, SQA, SCM, Technical reviews… 
+
+Framework Activities
+
+3️⃣ Task Set
+
+A task set defines:
+
+A. Overall lifecycle model
+
+B. Activities of Agile
+
+C. Work tasks, work products, and QA filters
+
+D. Risk analysis only
+
+👉 Slide ghi rõ định nghĩa task set 
+
+Updated Process Models
+
+4️⃣ Process Patterns
+
+Task patterns are related to:
+
+A. Entire lifecycle
+
+B. A specific work task
+
+C. Agile principles
+
+D. Documentation
+
+Phase patterns define:
+
+A. Risk handling strategy
+
+B. Sequence of framework activities
+
+C. Coding standards
+
+D. QA filters
+
+👉 Có 3 loại: Task, Stage, Phase 
+
+Updated Process Models
+
+🔹 PHẦN 2 – Plan-driven vs Agile
+
+Plan-driven processes are characterized by:
+
+A. Continuous change
+
+B. Heavy documentation and advance planning
+
+C. No documentation
+
+D. Short iterations only
+
+In Agile processes:
+
+A. Plans are fixed at the beginning
+
+B. Documentation is heavy
+
+C. Planning is incremental
+
+D. Requirements never change
+
+👉 Nội dung nằm trong slide Plan-driven and Agile 
+
+Updated Process Models
+
+🔹 PHẦN 3 – Waterfall Model
+
+Rất dễ ra True/False như sample quiz.
+
+Waterfall is considered a heavyweight process model.
+
+Waterfall follows a lockstep approach.
+
+Waterfall is best suited when requirements are well-understood.
+
+Big-bang delivery is often associated with Waterfall.
+
+👉 Những điểm này xuất hiện rõ trong slide Waterfall 
+
+Updated Process Models
+
+🔹 PHẦN 4 – Incremental Model
+
+In the Incremental model:
+
+A. Entire system is delivered at once
+
+B. System is divided into modules delivered in increments
+
+C. No testing is required
+
+D. No risk exists
+
+One disadvantage of the incremental model is:
+
+A. No user feedback
+
+B. Requires complete system definition upfront
+
+C. No documentation
+
+D. No deployment
+
+👉 Slide ghi rõ ưu nhược điểm 
+
+Updated Process Models
+
+🔹 PHẦN 5 – Spiral Model
+
+The Spiral model focuses primarily on:
+
+A. Documentation
+
+B. Risk analysis
+
+C. Lockstep development
+
+D. Big-bang delivery
+
+In Spiral:
+
+A. Phases are fixed
+
+B. Risk is explicitly assessed
+
+C. No iteration
+
+D. No feedback
+
+👉 Slide ghi rõ “Risk was the motivation” 
+
+Updated Process Models
+
+🔹 PHẦN 6 – RUP
+
+RUP consists of the following phases:
+
+A. Requirements, Design, Code, Test
+
+B. Inception, Elaboration, Construction, Transition
+
+C. Planning, Modeling, Deployment
+
+D. Risk, Review, Delivery
+
+The phase that focuses most on architecture and risk reduction is:
+
+A. Inception
+
+B. Elaboration
+
+C. Construction
+
+D. Transition
+
+👉 Elaboration focus architecture + risk mitigation 
+
+Updated Process Models
+
+RUP is:
+
+A. Pure waterfall
+
+B. Agile and iterative
+
+C. Only documentation-driven
+
+D. Big bang model
+
+🔹 PHẦN 7 – Agile & XP
+
+Which of the following is NOT a characteristic of Agile?
+
+A. Short releases
+
+B. User involvement
+
+C. Heavy documentation
+
+D. Incremental design
+
+XP emphasizes:
+
+A. Heavy documentation
+
+B. Pair programming
+
+C. Big bang release
+
+D. Lockstep phases
+
+Test-driven development is associated with:
+
+A. Waterfall
+
+B. Spiral
+
+C. XP
+
+D. V-model
+
+👉 XP practices nằm trong slide 
+
+Updated Process Models
+
+🔹 PHẦN 8 – Kanban / Scrum
+
+Kanban originated from:
+
+A. IBM
+
+B. Toyota Production Systems
+
+C. Microsoft
+
+D. SEI
+
+In Scrum:
+
+Product Owner is responsible for:
+
+A. Coding
+
+B. Writing user stories
+
+C. Testing
+
+D. Risk analysis

@@ -1,0 +1,36 @@
+1) Describe Agile -Scrum framework along with its activities.
+
+Agile is an iterative, incremental approach to software development. It emphasizes on flexibility, continuously customer feedback to improve software performance, and frequently delivery working software. 
+
+Scrum is a popular Agile framework that organizes development into short, fixed-length iterations called sprints (usually 2–4 weeks). In Scrum, the Product Owner represents stakeholders and manages a Product Backlog of user stories, the Scrum Master facilitates the scrum process and removes obstacles, and the Development Team is a responsible for building the product increment. 
+
+Scrum activities (events) guide the work through each sprint: Sprint Planning is held at the beginning to select backlog items and define a sprint goal, the Daily Scrum (standup) is a short daily meeting to synchronize progress and surface impediments, Sprint Review happens at the end to demonstrate the working increment to stakeholders and gather feedback that may update the backlog, and Sprint Retrospective follows to reflect on what went well and what should improve in the next sprint. 
+
+These repeated activities, along with the artifacts (Product Backlog, Sprint Backlog, and the Increment), provide a structured but adaptable process that helps teams respond to change, prioritize value, and continuously improve while delivering software in small, usable releases.
+
+
+Definitions:=============================
+
+Product Backlog: main list of all requirements and features for the entire product
+
+
+
+
+2) Describe the requirement engineering process along with its activities
+
+The Requirements Engineering process is a systematic and iterative process used to discover, analyze, refine, document, and validate software requirements.
+
+It begins with Requirements Elicitation, where information is gathered from stakeholders through interviews, workshops, and observations to understand business goals, needs, and constraints. However, elicited requirements are usually unstructured and incomplete, so they must undergo Requirements Analysis.
+
+Requirement Analysis is where they are clarified, categorized, clustered, and prioritized to remove inconsistencies and ambiguities. After analysis, the process moves into Requirements Definition.
+
+This is the iterative core which will iterate in the process until the requirement is refined.
+Requirements Definition is where requirements are written clearly and precisely.
+To improve understanding and reduce risk, Requirements Prototyping may be performed, creating mockups or preliminary versions of the system so stakeholders can visualize the requirements and provide feedback.
+These requirements are then evaluated through Requirements Review, ensuring they are correct, complete, consistent, feasible, and testable.
+=> The definition, prototyping, and review activities are iterative and may repeat until the requirements are sufficiently refined.
+
+Once stabilized, they are documented formally in the Software Requirements Specification (SRS), which is used for design and implementation.
+
+Finally, the process concludes with Requirements Agreement and Acceptance, where stakeholders formally approve the documented requirements, establishing a baseline for development. This structured and iterative approach reduces misunderstanding, improves coverage of usage scenarios, and increases the likelihood of project success.
+

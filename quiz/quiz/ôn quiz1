@@ -1,0 +1,211 @@
+❓ Câu 1
+
+A Process Framework primarily defines:
+
+A. A specific development methodology
+B. Core framework activities and umbrella activities
+C. Only coding standards
+D. Only testing procedures
+=> B
+
+❓ Câu 2
+
+Umbrella activities differ from framework activities because they:
+
+A. Occur only at the end of the project
+B. Are optional
+C. Occur throughout the entire software process
+D. Replace framework activities
+=> C
+
+❓ Câu 3
+
+Which of the following is NOT a core framework activity?
+
+A. Communication
+B. Planning
+C. Risk Management
+D. Construction
+=> C
+
+❓ Câu 4
+
+The main limitation of the Waterfall model is:
+
+A. Too much testing
+B. Lack of documentation
+C. Difficulty accommodating change
+D. Lack of defined phases
+=> C
+
+❓ Câu 5
+
+In the Incremental Model:
+
+A. The entire system is delivered at once
+B. Each increment goes through its own mini development cycle
+C. There is no testing
+D. Requirements are not defined early
+=> B
+
+❓ Câu 6
+
+The Spiral Model is primarily:
+
+A. Use-case driven
+B. Risk-driven
+C. Documentation-driven
+D. Big-bang delivery
+=> B
+❓ Câu 7
+
+In Spiral Model, each loop typically includes:
+
+A. Only coding and testing
+B. Planning, risk analysis, engineering, evaluation
+C. Only requirements and deployment
+D. Architecture and production only
+=> B
+❓ Câu 8
+
+Which model explicitly links each development phase to a corresponding testing phase?
+
+A. Spiral Model
+B. RUP
+C. V-Model
+D. Agile
+=> C
+❓ Câu 9
+
+RUP divides development into how many phases?
+
+A. 3
+B. 4
+C. 5
+D. 6
+=> B
+
+❓ Câu 10
+
+Which RUP phase focuses most on architecture and risk reduction?
+
+A. Inception
+B. Elaboration
+C. Construction
+D. Transition
+=> B
+
+❓ Câu 11
+
+RUP is best described as:
+
+A. Purely Waterfall
+B. Purely Agile
+C. Structured but iterative and incremental
+D. Completely unstructured
+=> C
+
+❓ Câu 12
+
+Which of the following models is most appropriate for high-risk, complex projects?
+
+A. Waterfall
+B. V-Model
+C. Spiral
+D. Big Bang
+=> C
+
+❓ Câu 13
+
+In Agile processes:
+
+A. Planning is fully completed upfront
+B. Documentation is always extensive
+C. Planning is incremental and adaptive
+D. Testing happens only at the end
+=> C
+
+❓ Câu 14
+
+Component-Based Development focuses primarily on:
+
+A. Mathematical proof
+B. Risk analysis
+C. Reuse of existing components
+D. Big-bang delivery
+=> C
+
+❓ Câu 15
+
+Formal methods emphasize:
+
+A. Incremental releases
+B. Mathematical specification of requirements
+C. User stories
+D. Rapid prototyping
+=> B
+
+📌 Part 2: True / False
+❓ Câu 16
+
+In RUP, coding only happens in the Construction phase.
+(True / False)
+true
+
+❓ Câu 17
+
+Spiral Model has fixed phases like Waterfall.
+(True / False)
+false
+
+❓ Câu 18
+
+In the V-Model, acceptance testing corresponds to requirements modeling.
+(True / False)
+true
+
+❓ Câu 19
+
+Incremental Model completely eliminates risk.
+(True / False)
+false
+
+❓ Câu 20
+
+Umbrella activities include configuration management and quality assurance.
+(True / False)
+true
+
+📌 Part 3: Scenario (Chọn model phù hợp)
+❓ Câu 21
+
+A government defense system with stable requirements and strict compliance rules.
+Which model is MOST appropriate?
+
+A. Agile
+B. Waterfall or V-Model
+C. Big Bang
+D. XP
+=> B
+
+❓ Câu 22
+
+A startup building an innovative AI product with high technical uncertainty.
+Best model?
+
+A. Waterfall
+B. Spiral
+C. V-Model
+D. Pure Big Bang
+=> B
+
+❓ Câu 23
+
+A large enterprise system requiring strong architectural design and iterative development.
+Best model?
+
+A. Spiral
+B. RUP
+C. Waterfall
+D. Big Bang
+=> B

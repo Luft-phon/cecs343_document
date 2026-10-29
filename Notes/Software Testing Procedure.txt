@@ -1,0 +1,9 @@
+Software Testing Procedure:
+
+- Look at the code file to see how many method needed to be tested
+- create a test file. The file must include test_*.py
+- import files needed to be tested
+
+- each method test should include 3 common guidelines: normal case, edge case, case lỗi index
+	
+	

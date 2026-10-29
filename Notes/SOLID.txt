@@ -1,0 +1,41 @@
+SOLID
+
+Single Responsility Principle:
+- Separate into Classes
+
+Open Closed:
+- 
+Liskov substitution principle:
+
+Interface segregation principle:
+- Interface is too big, some Object does not even use
+=> Make it smaller
+
+Ex: 
+interface IWork {
+    void work();
+}
+
+interface IEat {
+    void eat();
+}
+
+Dependency inversion principle:
+- Reduce dependency on a specific class
+
+Ex: 
+interface IDatabase {
+    void save();
+}
+
+class OrderService {
+    private IDatabase db;
+}
+
+
+
+Name convension:
+- Long name for global var
+- Short name for local var
+- Separating: 
+	C: do_something, Java: doSomething

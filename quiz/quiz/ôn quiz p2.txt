@@ -1,0 +1,146 @@
+Part 1 – Multiple Choice & True/False (1 point each)
+1. Which of the following is a framework activity?
+
+A. Risk management
+B. Software configuration management
+C. Communication
+D. Technical review
+=> C
+
+2. Which of the following is an umbrella activity?
+
+A. Modeling
+B. Construction
+C. Deployment
+D. Risk management
+=> D
+
+3. The generic process framework includes:
+
+A. Requirements, Code, Maintain
+B. Communication, Planning, Modeling, Construction, Deployment
+C. Risk, QA, Testing
+D. Specification, Evolution only
+=> B
+
+4. A task set defines:
+
+A. A lifecycle model
+B. Work tasks, work products, and QA filters
+C. Only risk activities
+D. Only coding standards
+=> B
+
+5. Plan-driven processes are characterized by:
+
+A. Minimal documentation
+B. Heavy documentation and advance planning
+C. No formal phases
+D. Continuous informal communication only
+=> B
+
+6. The Waterfall model is considered a heavyweight model.
+
+True
+False
+=> True
+
+7. The Waterfall model follows a lockstep approach.
+
+True
+False
+=> True
+
+8. The Incremental model delivers the entire system at once.
+
+True
+False
+=> False
+
+9. In the Spiral model, risks are explicitly assessed.
+
+True
+False
+=> True
+
+10. The Spiral model has fixed phases like specification and design.
+
+True
+False
+=> False
+
+11. RUP consists of which phases?
+
+A. Planning, Modeling, Coding, Testing
+B. Inception, Elaboration, Construction, Transition
+C. Requirements, Design, Code, Deploy
+D. Analysis, Build, Maintain
+=> B
+
+12. The phase in RUP that focuses most on architecture and risk reduction is:
+
+A. Inception
+B. Elaboration
+C. Construction
+D. Transition
+=> B
+
+13. Which process model is most associated with Test-Driven Development (TDD)?
+
+A. Waterfall
+B. Spiral
+C. XP
+D. V-Model
+=> C
+
+14. Which of the following is NOT a characteristic of Agile?
+
+A. Short releases
+B. User involvement
+C. Heavy documentation
+D. Incremental design
+=> C
+
+15. Kanban originated from:
+
+A. IBM
+B. Toyota Production Systems
+C. Microsoft
+D. SEI
+=> B
+
+Part 2 – Scenario Questions (5 points total)
+16. A project has very stable and well-understood requirements. The client expects detailed documentation and formal reviews before moving to the next phase. Which process model is most appropriate?
+
+A. XP
+B. Spiral
+C. Waterfall
+D. Scrum
+
+17. A startup is building a product with rapidly changing requirements. The team is small (6 developers), works closely with customers, and wants fast releases every 2–3 weeks. Which process model is most appropriate?
+
+A. Waterfall
+B. XP
+C. V-Model
+D. Big Bang
+
+18. A large safety-critical system involves high technical risk and integration with many subsystems. Risk analysis must be performed continuously. Which model is most appropriate?
+
+A. Waterfall
+B. Incremental
+C. Spiral
+D. XP
+
+19. A company wants to divide the system into modules and deliver working parts to customers early, collecting feedback after each release. Which model best fits?
+
+A. Waterfall
+B. Incremental
+C. V-Model
+D. Formal Methods
+
+20. A healthcare system requires architectural validation early in the project and risk mitigation before full-scale development. Which RUP phase addresses this?
+
+A. Inception
+B. Elaboration
+C. Construction
+D. Transition

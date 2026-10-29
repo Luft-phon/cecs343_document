@@ -1,0 +1,356 @@
+1. According to the slide, one early approach to building complex software was:
+
+A) Functional testing
+B) Structured programming
+C) Machine learning
+D) Microservices
+Answer: B
+
+2. The phrase “gotos considered harmful” is associated in the slide with:
+
+A) Database normalization
+B) Structured programming
+C) Cloud deployment
+D) Agile testing
+Answer: B
+
+3. The slide says language support alone is:
+
+A) always enough for good software design
+B) strictly necessary for OOD
+C) not enough by itself
+D) more important than design principles
+Answer: C
+
+4. Object-oriented design mainly asks:
+
+A) How to deploy software on many servers
+B) How to design software that is easy to modify, extend, and maintain
+C) How to replace all structured programming
+D) How to avoid using classes
+Answer: B
+
+
+7. SOLID is introduced on the slide as the first five principles for managing:
+
+A) user interfaces
+B) dependencies in code
+C) database schemas
+D) deployment pipelines
+Answer: B
+
+8. In SOLID, the letter S stands for:
+
+A) System responsibility principle
+B) Software reuse principle
+C) Single responsibility principle
+D) Substitution principle
+Answer: C
+
+9. In SOLID, the letter O stands for:
+
+A) Open/closed principle
+B) Object cohesion principle
+C) Overloading principle
+D) Operational consistency principle
+Answer: A
+
+10. In SOLID, the letter L stands for:
+
+A) Logical separation principle
+B) Liskov substitution principle
+C) Low-level sharing principle
+D) Layered structure principle
+Answer: B
+
+11. In SOLID, the letter I stands for:
+
+A) Interface segregation principle
+B) Inheritance specification principle
+C) Implementation simplification principle
+D) Integration support principle
+Answer: A
+
+12. In SOLID, the letter D stands for:
+
+A) Data integrity principle
+B) Design iteration principle
+C) Dependency inversion principle
+D) Dynamic invocation principle
+Answer: C
+
+Single Responsibility Principle (SRP)
+13. The Single Responsibility Principle states:
+
+A) A class should have only one method
+B) A class should have only one reason to change
+C) A class should only have private variables
+D) A class should never use inheritance
+Answer: B
+(vì 1 lớp chỉ nên làm 1 nhiệm vụ, nếu nhiệm vụ thay đổi thì chỉ có 1 reason)
+
+14. The slide says SRP encourages developers to strive for:
+
+A) coupling
+B) cohesion
+C) abstraction leakage
+D) redundancy
+Answer: B
+
+15. In the slide, cohesion is described as:
+
+A) the number of classes in a package
+B) the functional relatedness of the elements of a module
+C) how many interfaces a class implements
+D) the amount of code reuse
+Answer: B
+
+16. In the Book example, which responsibility properly belongs inside the Book class?
+
+A) printing text to console
+B) writing to another medium
+C) methods directly related to book properties and text
+D) formatting printer output
+Answer: C
+
+
+18. Why is putting both text behavior and printing behavior in Book a violation of SRP?
+
+A) Because Book would have more than one reason to change
+B) Because Book would use inheritance
+C) Because Book would become abstract
+D) Because Book would no longer have fields
+Answer: A
+
+
+Open/Closed Principle (OCP)
+20. The Open/Closed Principle states that classes should be:
+
+A) open for modification and closed for extension
+B) closed for inheritance and open for globals
+C) open for extension but closed for modification
+D) open for testing but closed for deployment
+Answer: C
+(thêm tính năng mới và không cần sửa code cũ)
+
+21. According to the slide, which heuristic supports OCP?
+
+A) All instance variables should be public
+B) Use more global variables
+C) All instance variables should be private
+D) Avoid abstractions
+Answer: C
+
+22. The slide also recommends under OCP:
+
+A) prefer global variables
+B) avoid global variables
+C) use protected fields everywhere
+D) place all logic in one class
+Answer: B
+
+23. “Design modules that never change” is most closely associated on the slide with:
+
+A) SRP
+B) OCP
+C) ISP
+D) LSP
+Answer: B
+
+25. Which class in the slide extends Guitar?
+
+A) ElectricGuitar
+B) CrazyGuitar
+C) SuperCoolGuitarWithFlames
+D) GuitarPrinter
+Answer: C
+
+Liskov Substitution Principle (LSP)
+26. The Liskov Substitution Principle states:
+
+A) derived classes must be smaller than base classes
+B) derived classes must be substitutable for their base classes
+C) base classes must inherit from derived classes
+D) interfaces should be split into smaller ones
+Answer: B
+
+27. The slide says the base class should not have to know about:
+
+A) private methods
+B) all of its derivatives
+C) low-level syntax
+D) deployment nodes
+Answer: B
+(vì base class chỉ nên biết generic, behavior thì subclass tự implement)
+
+28. If class A is a subtype of class B, LSP says:
+
+A) A can replace B only in testing
+B) B can never replace A
+C) B should be replaceable by A without disrupting program behavior
+D) A must remove inherited methods
+Answer: C
+
+29. In the car example, which method causes a problem for ElectricCar?
+
+A) accelerate()
+B) turnOnEngine()
+C) brake()
+D) refuel()
+Answer: B
+
+30. Why does ElectricCar violate LSP in the given design?
+
+A) Because it adds acceleration
+B) Because it throws an error for a base-type behavior it cannot support
+C) Because it has no fields
+D) Because it uses composition
+Answer: B
+
+
+Interface Segregation Principle (ISP)
+32. The Interface Segregation Principle states:
+
+A) clients should depend on large general-purpose interfaces
+B) clients should not be forced to depend on interfaces they do not use
+C) classes should never implement more than one interface
+D) interfaces must contain all possible methods
+Answer: B
+(thay vì tạo 1 interface khổng lồ, thì nên tách thành interface nhỏ hơn đúng với mục đích sử dụng)
+
+33. The slide warns against:
+
+A) abstract classes
+B) small interfaces
+C) fat or polluted interfaces
+D) dependency injection
+Answer: C
+
+34. Fat interfaces can lead to:
+
+A) better cohesion
+B) inadvertent coupling between clients
+C) fewer dependencies
+D) stronger encapsulation
+Answer: B
+
+35. In the bear example, BearKeeper is problematic because it:
+
+A) is too small
+B) forces unrelated responsibilities into one interface
+C) cannot be implemented
+D) has no methods
+Answer: B
+
+36. Which of the following is one of the segregated interfaces shown on the slide?
+
+A) BearDriver
+B) BearCleaner
+C) BearRunner
+D) BearWatcher
+Answer: B
+
+37. Which class implements BearCleaner and BearFeeder?
+
+A) BearKeeper
+B) CrazyPerson
+C) BearCarer
+D) MotorCar
+Answer: C
+
+
+Dependency Inversion Principle (DIP)
+39. The Dependency Inversion Principle says:
+
+A) depend on concrete classes, not abstractions
+B) depend on abstractions, not concrete classes
+C) high-level components should control all low-level details directly
+D) abstractions should depend on concrete classes
+Answer: B
+(không phụ thuộc vào class cụ thể, nên phụ thuộc vào abstract class/interface)
+
+40. According to the slide, high-level components should not depend on:
+
+A) low-level components directly
+B) abstractions
+C) interfaces
+D) policies
+Answer: A
+
+41. Under DIP, both high-level and low-level components should depend on:
+
+A) utility classes
+B) concrete implementations
+C) abstractions
+D) databases
+Answer: C
+
+42. The slide states that abstract classes should not depend upon:
+
+A) interfaces
+B) concrete classes
+C) high-level policies
+D) method parameters
+Answer: B
+
+44. The main goal of DIP in the slide is:
+
+A) reduce compilation speed
+B) decouple software modules
+C) eliminate all abstractions
+D) replace OOP with procedural code
+Answer: B
+
+45. In conventional architecture described on the slide, reuse of higher-level components is limited because:
+
+A) higher-level components depend directly on lower-level components
+B) lower-level components depend on abstractions
+C) interfaces are too small
+D) utility layers are always abstract
+Answer: A
+
+class OrderService {
+    private MySQLDatabase db = new MySQLDatabase();
+}
+=> nếu muốn đổi database thì bị limited
+
+Mixed Review Questions
+46. Which SOLID principle is most directly about “one reason to change”?
+
+A) OCP
+B) ISP
+C) SRP
+D) DIP
+Answer: C
+
+47. Which SOLID principle is most directly about being “open for extension, closed for modification”?
+
+A) LSP
+B) OCP
+C) DIP
+D) SRP
+Answer: B
+
+48. Which SOLID principle is most directly about substituting subclasses safely?
+
+A) ISP
+B) SRP
+C) LSP
+D) OCP
+Answer: C
+
+49. Which SOLID principle is most directly about avoiding fat interfaces?
+
+A) DIP
+B) ISP
+C) OCP
+D) LSP
+Answer: B
+
+50. Which SOLID principle is most directly about depending on abstractions?
+
+A) DIP
+B) LSP
+C) OCP
+D) SRP
+Answer: A

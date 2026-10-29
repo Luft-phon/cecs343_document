@@ -1,0 +1,213 @@
+1. In this lecture, a software requirement mainly specifies:
+A. The programming language to use
+B. Business functions users can perform in situations/contexts and the experience they have
+C. The database schema
+D. The project schedule
+=> B
+
+2. User requirements are often described as:
+A. Complete and detailed technical specs
+B. High-level, vague, and incomplete goals
+C. Formal UML diagrams
+D. Test cases written by developers
+=> B
+
+3. Requirements engineering components include:
+A. Coding, testing, deployment
+B. Requirements gathering, analysis, specification
+C. Prototyping, coding, maintenance
+D. UI design, database design, code review
+=> B
+
+4. “Requirements gathering” is also known as:
+A. Requirements refactoring
+B. Requirements elicitation
+C. Requirements validation
+D. Requirements deployment
+=> B
+
+5. The lecture emphasizes that we typically receive from the customer:
+A. A final SRS document
+B. A customer problem statement, not the requirements
+C. Fully written user stories with acceptance tests
+D. Source code prototypes
+=> B
+
+6. Requirements derivation is important because:
+A. Detecting a problem is the same as defining the problem
+B. The solution depends on the cause and constraints
+C. Requirements are only user wishes
+D. It removes the need for analysis
+=> B
+
+7. According to the lecture, requirements are determined by:
+A. Developer preferences
+B. Judgment about business goals/obstacles + real-world constraints + threats
+C. Only the customer’s wishes
+D. Only legal constraints
+=> B
+
+8. Which is NOT listed as a real-world constraint type in the lecture?
+A. Physical
+B. Social/Cultural
+C. Legal
+D. Compiler
+=> D
+
+9. The slide “Decomposition of Business Goals” contrasts:
+A. White-box vs black-box testing
+B. Breadth-first refinement vs depth-first refinement
+C. Agile vs waterfall
+D. Verification vs validation
+=> B
+
+10. A user story in agile is preferred because it is stated in terms of:
+A. Database tables and APIs
+B. User goals and capabilities
+C. System architecture layers
+D. Developer tasks
+=> B
+
+11. A typical user story format is:
+A. “The system shall…”
+B. “As a <role>, I can <capability> to <business-goal>.”
+C. “Given/When/Then…”
+D. “Class X inherits from Y…”
+=> B
+
+12. In agile user stories (per lecture), acceptance tests are written:
+A. After deployment
+B. When the story is identified
+C. Only at the end of the project
+D. Only by QA after coding
+=> B
+
+13. The lecture states requirements are identified:
+A. For the whole project upfront
+B. Only for the next iteration (not the whole project)
+C. Only during maintenance
+D. Only after architecture is complete
+=> B
+
+14. Story priority is typically given by:
+A. A numeric priority field on each story
+B. The order of appearance on the to-do list
+C. The number of words in the story
+D. The number of developers available
+=> B
+
+15. The “dictionary attack” example illustrates that requirements often need:
+A. Less detail to avoid confusion
+B. Requirements analysis to define parameters and business policies
+C. Immediate coding without discussion
+D. No acceptance tests
+=> B
+
+16. In the lecture, the “threshold shall be small, say three” is an example of:
+A. UI constraint
+B. Business policy decision
+C. Use case diagram notation
+D. Deployment requirement
+=> B
+
+17. Explicit business policies are important mainly because they:
+A. Reduce the need for customers
+B. Make policy decisions visible to stakeholders and help future changes be localized
+C. Replace requirements gathering
+D. Guarantee zero bugs
+=> B
+
+18. The lecture warns that these issues are too important to:
+A. Include in user stories
+B. Leave to programmers making ad-hoc hard-coded decisions
+C. Discuss with customers
+D. Document in any form
+=> B
+
+19. Tools like user stories and use cases are used for:
+A. Only coding
+B. Requirements analysis and requirements specification
+C. Only deployment planning
+D. Only UI mockups
+=> B
+
+20. The “Analyst’s Task: Three Descriptions” refers to:
+A. Database normalization
+B. The requirement, the problem domain, and the specification
+C. UI, backend, and database
+D. Scrum roles
+=> B
+
+21. In the example, “put HIGH voltage on Output-port-1” is most clearly a:
+A. Customer business goal
+B. Problem-domain behavior
+C. Software specification/interface behavior
+D. Acceptance test
+=> B
+
+22. Acceptance tests are described as:
+A. Only unit tests written by developers
+B. Criteria for assessing success (pass/fail for specific inputs), conducted by the customer throughout the project
+C. Documentation formatting rules
+D. A replacement for requirements gathering
+=> B
+
+23. The lecture states we cannot guarantee 100% coverage of scenarios, but we can:
+A. Ignore missing scenarios
+B. Increase expected coverage via a systematic approach
+C. Remove acceptance tests
+D. Replace analysis with coding
+=> B
+
+24. The “house story” is mainly included to illustrate:
+A. How to write clean code
+B. Problems caused by vague, conflicting, and unstable requirements
+C. Why UML is unnecessary
+D. Why testing is optional
+=> B
+
+25. The “Requirement Engineering Process” diagram includes which of the following?
+A. Req. elicitation, analysis, review, agreement/acceptance, SRS
+B. Database design, coding, deployment
+C. Scrum planning, daily standup, retrospective
+D. Only prototyping and implementation
+=> A
+
+26. “Eliciting detailed requirements” suggests involving:
+A. Less technical analysts					(khai thác detail thì phải hiểu kỹ thuật)
+B. More technically savvy requirements analysts
+C. Only programmers						(đây là task của BA, dev có thể tham gia)
+D. Only customers
+=> B
+
+27. The lecture clusters requirements into categories such as:
+A. CPU, RAM, Disk
+B. IF, BF, DF, UI, IS, FC
+C. Backend, frontend, fullstack
+D. Compile-time vs run-time
+=> B
+
+28. In requirement analysis, the two main tasks are:
+A. Coding and refactoring
+B. Categorizing/clustering and prioritizing			
+C. Brainstorming and deployment
+D. Hiring and budgeting
+=> B
+
+29. The purpose of requirements specification is to document requirements in a way that ensures:
+A. Faster typing speed
+B. Clarity, consistency, and completeness
+C. More features per sprint
+D. Less customer involvement
+=> B
+
+30. Practical requirements engineering emphasizes:
+A. One-shot design without iteration
+B. Iterating through creative + evaluative steps, using acceptance tests, and domain knowledge
+C. Random trial-and-error only
+D. Avoiding measurement criteria
+=> B
+
+
+
+

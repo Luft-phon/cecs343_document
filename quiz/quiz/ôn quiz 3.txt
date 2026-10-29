@@ -1,0 +1,158 @@
+The main purpose of process assessment frameworks is to:
+
+A. Replace software process models
+B. Evaluate and improve organizational process maturity
+C. Increase coding speed
+D. Eliminate documentation
+=> B
+
+❓ Câu 2
+
+SCAMPI is primarily associated with:
+
+A. Agile
+B. ISO 9001
+C. CMMI
+D. Scrum
+=> C
+
+❓ Câu 3
+
+SCAMPI includes five phases. Which of the following is NOT one of them?
+
+A. Initiating
+B. Diagnosing
+C. Deployment
+D. Learning
+=> C
+
+❓ Câu 4
+
+CBA IPI is mainly used to:
+
+A. Develop software incrementally
+B. Assess internal process maturity
+C. Replace CMMI
+D. Conduct sprint reviews
+=> B
+
+❓ Câu 5
+
+SPICE (ISO/IEC 15504) focuses on:
+
+A. Programming standards
+B. Mathematical specification
+C. Software process assessment
+D. Pair programming
+=> C
+
+❓ Câu 6
+
+ISO 9001:2000 for Software is:
+
+A. Only applicable to Agile projects
+B. A general quality management standard
+C. A risk-driven process model
+D. A coding methodology
+=> B
+
+❓ Câu 7
+
+Which of the following best distinguishes process models from process assessment frameworks?
+
+A. Process models focus on coding; assessment focuses on testing
+B. Process models define how to develop software; assessment frameworks evaluate how well processes are performed
+C. Both are the same
+D. Assessment replaces development
+=> B
+
+
+❓ Câu 8
+
+CMMI maturity levels are used to measure:
+
+A. Number of developers
+B. Code complexity
+C. Organizational process capability
+D. Sprint velocity
+=> C
+
+❓ Câu 9
+
+Which framework is internationally standardized?
+
+A. Scrum
+B. SPICE (ISO/IEC 15504)
+C. XP
+D. Waterfall
+=> B (ISO là international standard organization)
+
+❓ Câu 10
+
+Process improvement primarily aims to:
+
+A. Remove all documentation
+B. Reduce software size
+C. Improve consistency, predictability, and quality
+D. Eliminate stakeholders
+=> C
+
+🔹 Part 2: True / False
+❓ Câu 11
+
+Process assessment frameworks are software development methodologies.
+(True / False)
+=> False
+
+❓ Câu 12
+
+SCAMPI is used to evaluate compliance with CMMI.
+(True / False)
+=> True
+
+❓ Câu 13
+
+SPICE and ISO 9001 both relate to quality and process standards.
+(True / False)
+=> 
+
+❓ Câu 14
+
+Process maturity refers to how well-defined and controlled an organization’s development processes are.
+(True / False)
+
+❓ Câu 15
+
+Agile frameworks automatically guarantee high process maturity levels.
+(True / False)
+
+🔹 Part 3: Scenario-Based
+❓ Câu 16
+
+A large company wants international certification to demonstrate process quality to global clients.
+Which standard is most appropriate?
+
+A. XP
+B. ISO 9001
+C. Scrum
+D. V-Model
+
+❓ Câu 17
+
+An organization wants to determine its maturity level according to CMMI.
+Which assessment method should it use?
+
+A. SCAMPI
+B. TDD
+C. Kanban
+D. Pair Programming
+
+❓ Câu 18
+
+A government agency wants an objective evaluation of its defined software process.
+Which framework is best suited?
+
+A. SPICE
+B. XP
+C. Waterfall
+D. Big Bang

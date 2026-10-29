@@ -1,0 +1,563 @@
+1) One objective of object-oriented design is to:
+A) remove all state from software
+B) represent software as interacting objects that manage their own state and operations
+C) replace requirements engineering
+D) avoid UML entirely
+Answer: B
+
+Object-oriented design is best defined as designing systems using:
+A) shared global data
+B) self-contained objects and object classes
+C) only algorithms
+D) only relational tables
+Answer: B
+
+3) In OOD, objects are:
+A) only database rows
+B) abstractions of real-world or system entities that manage themselves
+C) always functions
+D) always UI widgets
+Answer: B
+
+4) Which statement best describes encapsulation in OOD?
+A) Objects expose all internal data directly
+B) Objects encapsulate state and representation information
+C) Objects eliminate behavior
+D) Objects cannot communicate
+Answer: B
+
+5) System functionality in OOD is mainly expressed in terms of:
+A) global variables
+B) object services
+C) machine code
+D) hardware interrupts
+Answer: B
+(chức năng trong hệ thống dc thể hiện thông qua sự giao tiếp của Objects)
+
+6) According to the slides, shared data areas in OOD are generally:
+A) required
+B) eliminated
+C) preferred over objects
+D) replaced by inheritance only
+Answer: B
+(khuyến khích nên tạo Object class riêng, sau đó gọi rồi new Object đó và mới add dữ liệu)
+
+7) Objects conceptually communicate by:
+A) inheritance
+B) message passing	
+C) class casting
+D) memory copying only
+Answer: B
+(message passing = gọi method của Object khác. Ex: user.placeOrder(order) )
+
+8) An object class is:
+A) an instance created at runtime
+B) a template used to create objects
+C) a message queue
+D) a final state
+Answer: B
+
+9) In practice, object messages are often implemented as:
+A) interrupts
+B) procedure calls with parameters
+C) spreadsheets
+D) package imports
+Answer: B
+
+10) Which pairing is correct?
+A) OOA = coding in Java; OOP = requirements analysis
+B) OOA = application-domain object model; OOD = OO system model for requirements; OOP = realizing the design in an OO language
+C) OOD = only coding; OOP = only testing
+D) OOA = deployment design; OOP = package design
+Answer: B
+
+==== UML basics and class diagrams (slides 10-23) ====
+11) UML is best described as:
+A) a programming language
+B) an integration of earlier OO notations and a de facto standard for OO modeling
+C) a database engine
+D) a testing framework
+Answer: B
+
+12) The UML diagram-types slide divides diagrams into:
+A) static and dynamic only
+B) structural and behavioral
+C) logical and physical only
+D) compile-time and run-time only
+Answer: B
+(structural: class diagram, object diagram, component diagram, deployment diagram, package diagram)
+(behavioral: sequence diagram, activity diagram, state machine diagram, UC diagram)
+
+13) Which of the following is a structural diagram?
+A) Sequence diagram
+B) Activity diagram
+C) Class diagram
+D) State machine diagram
+Answer: C
+
+14) Which of the following is a behavioral diagram?
+A) Package diagram
+B) Component diagram
+C) Object diagram
+D) Sequence diagram
+Answer: D
+
+15) A UML class is usually drawn as:
+A) a circle with arrows
+B) a rectangle with separate compartments
+C) a diamond
+D) a cloud
+Answer: B
+
+16) The only required tag in the graphical representation of a class is the:
+A) attribute list
+B) operation list
+C) class name
+D) stereotype
+Answer: C
+
+17) Which is the correct UML attribute notation?
+A) String = name
+B) name -> String
+C) name : String
+D) String : name()
+Answer: C
+
+18) A derived attribute is marked with:
+A) +
+B) *
+C) /
+D) #
+Answer: C
+
+19) Which visibility symbol means private?
+A) +
+B) #
+C) /
+D) -
+Answer: D
+
+20) Class operations in UML:
+A) appear in the second compartment only
+B) describe class behavior and appear in the third compartment
+C) cannot have names
+D) cannot have parameters
+Answer: B
+(class operations: method)
+
+21) An operation signature may include:
+A) only the operation name
+B) only the return type
+C) parameter names/types/defaults and possibly a return type
+D) only visibility
+Answer: C
+(listing the name, type, and default value of all parameters, and, in the case of functions, a return type)
+
+22) A class responsibility is:
+A) the memory size of the class
+B) a contract or obligation of a class to perform a particular service
+C) the class color
+D) a replacement for attributes
+Answer: B
+
+23) In the Employee class example, which of the following is an operation?
+A) salary
+B) status
+C) join()
+D) department
+Answer: C
+
+24) When drawing a class in UML:
+A) you must always show every attribute and every operation
+B) you needn't show attributes and operations in every diagram
+C) only attributes can be omitted
+D) only operations can be omitted
+Answer: B
+(vì UML chỉ show ý tưởng và vì required only class name)
+
+==== Relationships, interfaces, enumerations, exceptions, and exercises (slides 24-48) ====
+25) According to the slides, the three kinds of UML relationships are:
+A) classes, objects, packages
+B) dependencies, generalizations, associations
+C) aggregations, compositions, states
+D) attributes, services, messages
+Answer: B
+
+26) A dependency relationship indicates that:
+A) one class inherits from another
+B) one element semantically uses another
+C) two classes must have identical operations
+D) two objects share the same state
+Answer: B
+
+27) The dependency from CourseSchedule to Course exists because Course is:
+A) a superclass of CourseSchedule
+B) used in the add and remove operations of CourseSchedule
+C) part of CourseSchedule by composition
+D) an exception type
+Answer: B
+
+28) A generalization relationship connects:
+A) two unrelated classes
+B) a subclass to its superclass
+C) an object to a message
+D) a package to a node
+Answer: B
+
+29) In the slides, TeachingAssistant inherits from:
+A) only Person
+B) only Student
+C) Student and Employee
+D) Instructor and Team
+Answer: C
+
+30) An association denotes:
+A) a link between classes that need to communicate
+B) deletion of an object
+C) the start of a sequence diagram
+D) a method call within a single object only
+Answer: A
+
+31) Multiplicity on an association shows:
+A) the line color
+B) how many objects may participate in the relationship
+C) whether a class is abstract
+D) the order of execution
+Answer: B
+
+32) Role names in an association are used to:
+A) rename the class itself
+B) indicate the role or behavior of an object in the association
+C) replace multiplicity
+D) replace attributes
+Answer: B
+(Student -------- Instructor
+   learns from        teaches)
+role name là learns from
+
+33) In the dual association example between Student and Team, the two association names are:
+A) teaches and learns from
+B) add and remove
+C) member of and president of
+D) join and leave
+Answer: C
+
+34) Navigability in an association indicates:
+A) physical size of an object
+B) the direction in which one object can request services from another
+C) inheritance depth
+D) package visibility only
+Answer: B
+(Navigability: hướng mà một object có thể “gửi message / gọi method” đến object khác)
+(Student --------> Teacher)
+
+35) In the navigability example, the Router requests services from the:
+A) Student
+B) DomainNameServer
+C) ControlPanel
+D) WarrantyRegistration
+Answer: B
+
+36) An association can itself be modeled as an object/class. This is called a:
+A) derived class
+B) link class or association class
+C) package class
+D) state class
+Answer: B
+(nó là class dc mở rộng để lưu attrs mà liên quan tới 2 objs kia)
+(đã học ở database rồi, loại mà association with history and without history)
+
+37) In the slides, WarrantyRegistration is an example of a(n):
+A) exception class
+B) association class
+C) package
+D) activity
+Answer: B
+
+38) An aggregation is best described as:
+A) strong ownership where parts die with the whole
+B) a whole-part relationship where the part can exist independently
+C) a subtype relationship
+D) a message sent to self
+Answer: B
+
+39) UML shows aggregation with a:
+A) filled diamond
+B) hollow diamond
+C) hollow triangle
+D) dashed arrow
+Answer: B
+
+40) A composition is best described as:
+A) a loose relationship with independent parts
+B) strong ownership with coincident lifetimes
+C) a dependency
+D) an exception link
+Answer: B
+
+41) UML shows composition with a:
+A) filled diamond
+B) hollow diamond
+C) circle
+D) dashed arrow
+Answer: A
+
+42) In the composition example, a Window is composed of:
+A) Student and Instructor
+B) Scrollbar, Titlebar, and Menu
+C) Engine and Transmission
+D) FrontEnd and BackEnd
+Answer: B
+
+43) An interface in UML is:
+A) a named set of operations specifying behavior without showing inner structure
+B) a concrete object with state
+C) a package dependency
+D) an enumeration literal
+Answer: A
+(trong interface chỉ có method signature (tên + tham số + kiểu trả về))
+
+44) Which statement about interfaces is correct?
+A) They are instantiated directly and store attributes
+B) They have state but no behavior
+C) They do not get instantiated and have no attributes or state
+D) They are the same as exceptions
+Answer: C
+(instantiated: khởi tạo)
+
+45) A realization relationship connects:
+A) a subclass to a superclass
+B) a class to an interface that supplies its behavioral specification
+C) two packages with no access
+D) a state to an event
+Answer: B
+(realization: là implement của class)
+
+46) A realization relationship is drawn as a:
+A) solid line with filled diamond
+B) dashed line with hollow triangle toward the specifier
+C) solid line with hollow diamond
+D) plain circle
+Answer: B
+
+47) An enumeration is:
+A) a method with parameters
+B) a user-defined data type with an ordered list of literals
+C) a package diagram
+D) a state transition
+Answer: B
+
+48) Exceptions in UML:
+A) cannot be modeled as classes
+B) are modeled like other classes, using the <<exception>> stereotype
+C) appear only in sequence diagrams
+D) must be interfaces
+Answer: B
+
+49) In the Airport exercise, “Aircraft is either a Jet or a Helicopter” is best modeled using:
+A) dependency
+B) generalization
+C) aggregation
+D) multiplicity
+Answer: B
+
+50) In the Airport exercise, “Airport has Aircraft, but Aircraft is not part of the Airport” is best modeled using:
+A) composition
+B) realization
+C) association
+D) exception
+Answer: C
+(aggregation)
+
+Sequence diagrams and the ATM example (slides 49-57)
+51) A sequence diagram emphasizes:
+A) storage size
+B) time ordering of messages
+C) class inheritance
+D) package access
+Answer: B
+
+52) In a sequence diagram, objects are arranged along the:
+A) Y-axis, with messages on X-axis
+B) X-axis, with messages ordered down the Y-axis
+C) diagonal axis
+D) same point
+Answer: B
+
+53) The dashed line descending from an object is called the:
+A) dependency line
+B) lifeline
+C) role line
+D) access line
+Answer: B
+
+54) Messages in a sequence diagram are rendered as:
+A) circles
+B) horizontal arrows passed between objects
+C) hollow diamonds
+D) vertical bars only
+Answer: B
+
+55) A condition such as [check = "true"] indicates:
+A) multiplicity
+B) a guard showing when a message gets passed
+C) a final state
+D) a package dependency
+Answer: B
+
+56) An arrow with a non-solid arrowhead and no accompanying message typically indicates:
+A) object creation
+B) a return from a previous message
+C) generalization
+D) aggregation
+Answer: B
+
+57) An iteration marker such as * or *[i = 1..n] means:
+A) the object is destroyed
+B) the message is repeated
+C) the class is abstract
+D) the package is hidden
+Answer: B
+
+58) In the combined sequence example, the label new indicates:
+A) inheritance
+B) object creation
+C) access control
+D) finalization
+Answer: B
+
+59) Self-delegation in a sequence diagram means:
+A) a class inherits from itself
+B) an object sends a message to itself
+C) a package contains itself
+D) an interface realizes itself
+Answer: B
+
+Packages, component diagrams, and deployment diagrams (slides 58-68)
+60) A package in UML is:
+A) a final state
+B) a container-like element for organizing other elements into groups
+C) a message type
+D) a visibility symbol
+Answer: B
+
+61) A package can contain:
+A) only classes
+B) only diagrams
+C) classes, other packages, and diagrams
+D) only interfaces
+Answer: C
+
+62) Packages can be used to provide:
+A) controlled access between classes in different packages
+B) object lifelines
+C) only event triggers
+D) exception handling only
+Answer: A
+
+63) The package relationship example shows that JavaCompiler:
+A) is composed of Java
+B) generalizes Compiler and depends on Java
+C) is an interface for Compiler
+D) cannot relate to other packages
+Answer: B
+
+64) Component diagrams are mainly used to model the:
+A) static implementation view of a system    (static: no timeline, no behaviour)
+B) dynamic event lifecycle		
+C) time ordering of messages		(sequence diagram)
+D) actor interactions only		(usecase diagram)
+Answer: A
+
+65) The physical things mentioned for component diagrams include:
+A) executables, libraries, tables, files, and documents
+B) only actors and use cases
+C) only classes and attributes
+D) only states and transitions
+Answer: A
+
+66) Well-designed components should depend primarily on:
+A) other components directly
+B) interfaces that components support
+C) global variables
+D) deployment nodes
+Answer: B
+
+67) Deployment diagrams are mainly used to model the:
+A) static deployment view and hardware topology of a system
+B) private attributes of classes
+C) order of messages
+D) literal values of enumerations
+Answer: A
+
+68) In the client-server deployment example, which mapping is correct?
+A) server:HostMachine contains Planner; clientMachine:PC contains meetingsDB
+B) server:HostMachine contains Scheduler and meetingsDB; clientMachine:PC contains Planner
+C) clientMachine:PC contains Scheduler; server:HostMachine contains only JavaCompiler
+D) neither node contains components
+Answer: B
+
+State machines and activity diagrams (slides 69-77)
+69) The state machine view describes:
+A) static class structure only
+B) dynamic behavior of objects over time by modeling their lifecycles
+C) package access rules
+D) database normalization
+Answer: B
+
+70) An object transitions from one state to another because of:
+A) a stereotype
+B) an event that affects it
+C) a package
+D) a visibility marker
+Answer: B
+
+71) Which statement about state diagrams is correct?
+A) There can be many start states in one state diagram
+B) There can be only one start state, but many intermediate and final states
+C) There can be only one final state
+D) They cannot model classes
+Answer: B
+
+72) A state containing parallel regions is a:
+A) simple state
+B) concurrent composite state
+C) dependency state
+D) role state
+Answer: B
+
+73) An activity diagram is essentially a:
+A) class hierarchy
+B) flowchart showing control from activity to activity
+C) deployment map only
+D) data dictionary
+Answer: B
+
+74) Compared with interaction diagrams, activity diagrams emphasize the flow of control:
+A) from object to object	(sequence diagram)
+B) from package to package	(package diagram)
+C) from activity to activity	
+D) from compiler to language	
+Answer: C
+
+75) In the order-processing activity example, which mapping is correct?
+A) [failed] -> Dispatch Order; [need to reorder] -> Cancel Order
+B) [failed] -> Cancel Order; [need to reorder] -> Reorder Item
+C) [succeeded] -> Cancel Order; [in stock] -> Final State
+D) [failed] -> Reorder Item only
+Answer: B
+
+76) In the final activity-diagram example, the [No] branch is an:
+A) aggregation
+B) alternative/extension flow
+C) enumeration literal
+D) interface realization
+Answer: B
+
+77) In that same activity example, Step 4.1 and Step 4.2 are:
+A) attributes
+B) parallel activities
+C) exception classes
+D) packages
+Answer: B
+

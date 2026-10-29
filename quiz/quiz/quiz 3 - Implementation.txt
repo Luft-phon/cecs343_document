@@ -1,0 +1,564 @@
+Multiple Choice Questions
+
+2. According to the slide, coding standards typically include conventions for:
+
+A) hardware design only
+B) coding style and implementation practices
+C) cloud pricing
+D) database backups only
+Answer: B
+
+
+Characteristics of Good Implementations
+9. Which of the following is listed as a characteristic of a good implementation?
+
+A) Readability
+B) Popularity
+C) Aggressive inheritance
+D) Randomness
+Answer: A
+
+10. Which of the following is listed as a characteristic of a good implementation?
+
+A) Maintainability
+B) Loud error sounds
+C) Maximum file count
+D) Heavy coupling
+Answer: A
+
+11. Which of the following is listed as a characteristic of a good implementation?
+
+A) Performance
+B) Verbosity only
+C) Global state
+D) Redundancy
+Answer: A
+
+12. Which of the following is listed as a characteristic of a good implementation?
+
+A) Traceability
+B) Informality
+C) Ambiguity
+D) Deep nesting
+Answer: A
+(khả năng truy vết: khả năng liên kết ngược Requirement ↔ Code ↔ Test ↔ Bug ↔ Commit => cho dễ debug)
+
+13. Which of the following is listed as a characteristic of a good implementation?
+
+A) Correctness
+B) Long comments
+C) Unstructured flow
+D) GOTO usage
+Answer: A
+(correctness: chạy đúng theo yêu cầu. I/O đúng)
+
+
+14. Which of the following is listed as a characteristic of a good implementation?
+
+A) Completeness
+B) Special characters in file names
+C) Random indentation
+D) Minimal testing only
+Answer: A
+
+Naming Conventions
+15. Naming conventions include names of:
+
+A) classes, methods, variables, directories, and files
+B) only classes
+C) only variables
+D) only databases
+Answer: A
+
+16. According to the guideline, global identifiers should generally use:
+
+A) short names
+B) long names
+C) single-letter names only
+D) no names
+Answer: B
+(int totalNumberOfRegisteredUsers = 100;)
+
+17. According to the guideline, local identifiers should generally use:
+
+A) long descriptive paragraphs
+B) short names
+C) file paths
+D) uppercase only
+Answer: B
+(int i = 0)
+
+18. The slide emphasizes which of the following in naming?
+
+A) Consistency
+B) Random abbreviations
+C) Maximum punctuation
+D) Reusing unrelated names
+Answer: A
+
+19. The example “ID” vs “Id” on the slide mainly illustrates the need for:
+
+A) polymorphism
+B) consistency
+C) multiple inheritance
+D) defensive programming
+Answer: B
+
+20. The slide contrasts do_something in C with doSomething in Java to show:
+
+A) file naming only
+B) different language naming conventions
+C) debugging syntax
+D) interface segregation
+Answer: B
+
+
+Method and Function Size
+23. According to the slide, large functions or methods are:
+
+A) statistically more error-prone than smaller ones
+B) always faster
+C) always easier to debug
+D) recommended in most cases
+Answer: A
+
+24. The guideline on the slide says method size should be less than:
+
+A) 10 lines
+B) 25 lines
+C) 50 lines whenever possible
+D) 100 lines
+Answer: C
+
+=====================================
+
+File Naming
+
+26. A good file-naming convention helps make it easier to:
+
+A) locate a given file from a module
+B) eliminate all bugs
+C) replace testing
+D) avoid all documentation
+Answer: A
+
+27. According to file-naming best practices, file names should be:
+
+A) inconsistent
+B) consistently named
+C) as long as possible
+D) filled with spaces
+Answer: B
+
+28. The slide recommends file names should be:
+
+A) short but descriptive
+B) very long and cryptic
+C) numeric only
+D) identical across all modules
+Answer: A
+
+29. The slide suggests a file name length of:
+
+A) under 10 characters
+B) under 25 characters
+C) exactly 50 characters
+D) over 100 characters
+Answer: B
+
+30. Which should be avoided in a file name according to the slide?
+
+A) Special characters or spaces
+B) Letters
+C) Digits
+D) Descriptive words
+Answer: A
+
+31. The slide recommends using:
+
+A) capitals and underscores instead of periods, spaces, or slashes
+B) slashes in every file name
+C) spaces whenever possible
+D) only lowercase and punctuation
+Answer: A
+
+32. Which date format is recommended on the slide?
+
+A) MM/DD/YYYY
+B) DD/MM/YY
+C) ISO 8601_YYYYMMDD
+D) Month-Day-Year text form
+Answer: C
+
+33. The slide says the naming convention should be written down in the:
+
+A) bug tracker
+B) data management plan
+C) payroll record
+D) UML sequence diagram
+Answer: B
+
+Particular Programming Constructs
+34. Which statement does the slide recommend not using?
+
+A) GOTO
+B) for-loop
+C) interface
+D) local variable
+Answer: A
+
+35. Besides GOTO, the slide also advises against:
+
+A) recursion
+B) setjmp/longjmp
+C) constructors
+D) arrays
+Answer: B
+
+36. The slide states that which of the following is not recommended?
+
+A) Multiple inheritance
+B) Encapsulation
+C) Assertions
+D) Refactoring
+Answer: A
+(1 class kết thừa nhiều class cha, nếu cùng method thì code ko biết dùng cái nào)
+
+Comments
+37. One problem with comments listed on the slide is that they:
+
+A) may distract from the code and make the program harder to read
+B) always improve readability
+C) replace refactoring
+D) remove the need for naming conventions
+Answer: A
+
+38. Another problem with comments listed on the slide is that they:
+
+A) are always too short
+B) may be wrong
+C) eliminate bugs
+D) prevent debugging
+Answer: B
+
+39. Which type of comment does the slide explicitly say to avoid?
+
+A) Repeat the code
+B) Description of code intent
+C) External references
+D) Useful design notes
+Answer: A
+
+40. If a comment merely explains the code, the slide suggests you might instead:
+
+A) add more comments only
+B) rewrite the code
+C) use more GOTO
+D) increase method length
+Answer: B
+
+41. For markers such as incomplete work or opportunities for change, the slide suggests using:
+
+A) version control instead
+B) only block comments
+C) multiple inheritance
+D) global variables
+Answer: A
+(version control là git)
+
+42. For comments that summarize code, the slide suggests maybe:
+
+A) moving it into its own function and naming it correctly
+B) adding more nested loops
+C) removing all names
+D) using setjmp
+Answer: A
+
+43. According to the slide, the most useful type of comment is:
+
+A) repeating the code
+B) marker comments only
+C) description of code intent
+D) decorative comments
+Answer: C
+
+44. Which of the following is listed as a valid type of comment?
+
+A) External references
+B) Compiler directives only
+C) Runtime-generated comments
+D) Deployment comments
+Answer: A
+(cmt để dẫn tới link document REQ)
+
+Coding Standards
+45. The proposed coding-standards structure includes:
+
+A) language-specific documents such as go.md, js.md, php.md
+B) only one file for everything
+C) no documentation at all
+D) image files only
+Answer: A
+
+46. The proposed standards structure also includes:
+
+A) endpoint_docs.md and general.md
+B) only UML diagrams
+C) only executable files
+D) only spreadsheets
+Answer: A
+(repo_standards/
+    endpoint_docs.md
+    general.md
+    go.md
+    js.md
+    php.md)
+
+Debugging
+47. According to the slide, the first phase of debugging is:
+
+A) Verification
+B) Correction
+C) Stabilization/reproduction
+D) Optimization
+Answer: C
+
+Stabilization / reproduction	(làm cho lỗi xảy ra ổn định chứ k phải lúc có lúc ko => tìm nguyên nhân gây lỗi)
+Localization			(tìm lỗi nằm ở đâu trong code)
+Correction			(sửa lỗi)
+Verification			(ktra lỗi hết thực chưa)
+
+48. In the stabilization/reproduction phase, the output should be:
+
+A) a full redesign
+B) a minimal test case that causes the error
+C) a new UI
+D) a deployment script
+Answer: B
+
+49. Which debugging phase focuses on finding the error in the code?
+
+A) Correction
+B) Verification
+C) Localization
+D) Optimization
+Answer: C
+
+50. Which debugging phase involves fixing the problem?
+
+A) Stabilization
+B) Correction
+C) Localization
+D) Performance profiling
+Answer: B
+
+51. Which debugging phase checks that the fix actually works?
+
+A) Verification
+B) Reproduction
+C) Refactoring
+D) Compilation
+Answer: A
+
+52. Which tool is listed on the slide as a debugging aid?
+
+A) Source code comparator (Code Compare tool)
+B) Database normalizer
+C) UML printer
+D) CSS formatter only
+Answer: A
+
+53. Which additional debugging aid is explicitly listed?
+
+A) Interactive debugger
+B) GUI builder
+C) Package diagram
+D) Linter only
+Answer: A
+
+Guidelines for Locating Errors
+54. According to the slide, code that tends to have more errors includes:
+
+A) routines with more than one error
+B) short comments
+C) static HTML
+D) naming conventions
+Answer: A
+
+55. Another category of code that tends to have more errors is:
+
+A) legacy code only
+B) newly created code
+C) abstract classes only
+D) unit tests only
+Answer: B
+
+Defensive Programming and Optimization
+56. The slide says ______ can be used for defensive programming.
+
+A) Assertions
+B) GOTO
+C) Multiple inheritance
+D) File slashes
+Answer: A
+(assertion: assumption để kiểm tra bug)
+(defensive programing: cách viết code để ngừa lỗi )
+
+57. According to the slide, most modern programming languages:
+
+A) ban assertions
+B) support assertions
+C) avoid defensive programming
+D) require multiple inheritance
+Answer: B
+
+58. The slide mentions ______ for performance optimization.
+
+A) Profiler
+B) Reproducer
+C) Sequencer
+D) Compiler switch only
+Answer: A
+(Profiler: tool to measure the performance of system)
+
+Refactoring
+59. Refactoring is defined on the slide as:
+
+A) rewriting the entire system from scratch
+B) improving code style without altering behavior
+C) adding new features only
+D) optimizing hardware
+Answer: B
+
+60. Refactoring aims to remove:
+
+A) bad smells
+B) assertions
+C) naming conventions
+D) user stories
+Answer: A
+(bad smell: code vẫn chạy nhưng khó bảo trì, khó đọc)
+
+61. Which of the following is listed as a bad smell?
+
+A) Duplicated code
+B) Strong cohesion
+C) Correctness
+D) Traceability
+Answer: A
+
+62. Which of the following is listed as a bad smell?
+
+A) Long methods
+B) Good comments
+C) Consistent UI
+D) Defensive checks
+Answer: A
+
+63. Which of the following is listed as a bad smell?
+
+A) Large classes
+B) Local variables
+C) Assertions
+D) Indentation
+Answer: A
+
+64. Which of the following is listed as a bad smell?
+
+A) Switch statements
+B) Interfaces
+C) Constructors
+D) Comments of intent
+Answer: A
+(switch case. là vi phạm SOLID với open/close => thêm case sửa code)
+
+65. Which of the following is listed as a bad smell?
+
+A) Feature envy
+B) Encapsulation
+C) Maintainability
+D) Completeness
+Answer: A
+
+66. Which of the following is listed as a bad smell?
+
+A) Inappropriate intimacy
+B) Traceability
+C) Readability
+D) Polymorphism
+Answer: A
+(2 lớp biết quá nhiều data về nhau dẫn đến bị phụ thuộc)
+
+User Interface Design
+67. The slide says there are ______ golden rules of user-interface design.
+
+A) two
+B) three
+C) four
+D) five
+Answer: B
+
+68. One golden rule of UI design listed on the slide is:
+
+A) Place user in control
+B) Increase user confusion
+C) Maximize memory load
+D) Design inconsistent screens
+Answer: A
+
+69. One golden rule of UI design listed on the slide is:
+
+A) Reduce the user’s memory load
+B) Force the user to memorize steps
+C) Hide all navigation options
+D) Make all screens different
+Answer: A
+
+70. One golden rule of UI design listed on the slide is:
+
+A) Design consistent user interface
+B) Avoid consistency
+C) Prioritize random layouts
+D) Eliminate user feedback
+Answer: A
+
+Mixed Review Questions
+71. Which combination best matches the slide’s view of good implementation?
+
+A) Readability, maintainability, correctness
+B) GOTO, globals, long methods
+C) Ambiguity, redundancy, inconsistency
+D) Large functions, fat interfaces, random naming
+Answer: A
+
+72. Which practice is most aligned with the slide?
+
+A) Use comments to repeat the code
+B) Keep methods under 50 lines whenever possible
+C) Prefer multiple inheritance
+D) Use special characters in file names
+Answer: B
+
+73. Which of the following best reflects the slide’s guidance on comments?
+
+A) Comments are always good
+B) The most useful comments describe code intent
+C) Comments should replace refactoring
+D) Marker comments are better than version control
+Answer: B
+
+74. Which of the following best reflects the slide’s guidance on debugging?
+
+A) Start by editing random code
+B) First create a minimal test case that reproduces the error
+C) Verification happens before correction
+D) Debugging has only two phases
+Answer: B
+
+75. Which of the following best reflects the slide’s guidance on user interfaces?
+
+A) Design inconsistent interfaces to keep users alert
+B) Reduce the user’s memory load
+C) Put the system in control instead of the user
+D) Make users memorize commands
+Answer: B
